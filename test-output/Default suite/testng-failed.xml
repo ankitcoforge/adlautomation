@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testsuites.quote_test">
+        <methods>
+          <include name="close"/>
+          <include name="createQuote1"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- testsuites.quote_test -->
+      <class name="testsuites.dashboard_test">
+        <methods>
+          <include name="close"/>
+          <include name="dashboard"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- testsuites.dashboard_test -->
+      <class name="testsuites.login_test">
+        <methods>
+          <include name="close"/>
+          <include name="logout1"/>
+          <include name="loggedIn"/>
+        </methods>
+      </class> <!-- testsuites.login_test -->
+      <class name="testsuites.contract_test">
+        <methods>
+          <include name="createContract1"/>
+          <include name="close"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- testsuites.contract_test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

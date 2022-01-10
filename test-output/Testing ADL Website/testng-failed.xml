@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Testing ADL Website]">
+  <parameter name="testng.metrics.report.name" value="Coforge.html"/>
+  <parameter name="password" value="4558600"/>
+  <parameter name="testng.metrics.report.logo" value="https://mma.prnewswire.com/media/1232343/Coforge_Logo.jpg?p=publish"/>
+  <parameter name="username" value="Dealer7032823"/>
+  <test thread-count="5" name="Testing ADL Website(failed)">
+    <classes>
+      <class name="testsuites.contract_test">
+        <methods>
+          <include name="createContract1" invocation-numbers="0"/>
+          <include name="close"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- testsuites.contract_test -->
+    </classes>
+  </test> <!-- Testing ADL Website(failed) -->
+</suite> <!-- Failed suite [Testing ADL Website] -->

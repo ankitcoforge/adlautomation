@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing ADL Website">
+<parameter name="testng.metrics.report.name" value = "Coforge.html"/>
+ <parameter name="testng.metrics.report.logo" value = "https://mma.prnewswire.com/media/1232343/Coforge_Logo.jpg?p=publish"/>
+ <parameter name="username" value = "Dealer7032823"/>
+ <parameter name="password" value = "4558600"/>
+    <test name="Testing ADL Website">
+         <classes>
+         
+             <class name="testsuites.login_test"/>
+             <class name="testsuites.dashboard_test"/>    
+             <class name="testsuites.contract_test"/>
+             <class name="testsuites.quote_test"/>
+         
+          </classes>
+     </test> <!-- Test -->
+</suite> <!-- Suite -->
